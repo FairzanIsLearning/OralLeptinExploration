@@ -1,0 +1,5430 @@
+[
+  {
+    "cemLoaded": false,
+    "DefaultMicrowaveMethodID": 100,
+    "ProcessTypeID": 1,
+    "ScaleID": 2,
+    "MethodName": "Standard Deprotection",
+    "BubbleOnSeconds": 2,
+    "BubbleOffSeconds": 3,
+    "stages": [
+      {
+        "Temperature": 25,
+        "Power": 0,
+        "HoldTime": 5,
+        "deltaT": 5,
+        "SequenceNumber": 1
+      },
+      {
+        "Temperature": 78,
+        "Power": 100,
+        "HoldTime": 20,
+        "deltaT": 2,
+        "SequenceNumber": 2
+      },
+      {
+        "Temperature": 88,
+        "Power": 60,
+        "HoldTime": 10,
+        "deltaT": 2,
+        "SequenceNumber": 3
+      },
+      {
+        "Temperature": 90,
+        "Power": 20,
+        "HoldTime": 60,
+        "deltaT": 1,
+        "SequenceNumber": 4
+      }
+    ]
+  },
+  {
+    "cemLoaded": false,
+    "DefaultMicrowaveMethodID": 101,
+    "ProcessTypeID": 2,
+    "ScaleID": 2,
+    "MethodName": "Standard Coupling",
+    "BubbleOnSeconds": 2,
+    "BubbleOffSeconds": 3,
+    "stages": [
+      {
+        "Temperature": 25,
+        "Power": 0,
+        "HoldTime": 5,
+        "deltaT": 5,
+        "SequenceNumber": 1
+      },
+      {
+        "Temperature": 80,
+        "Power": 100,
+        "HoldTime": 20,
+        "deltaT": 2,
+        "SequenceNumber": 2
+      },
+      {
+        "Temperature": 86,
+        "Power": 60,
+        "HoldTime": 10,
+        "deltaT": 2,
+        "SequenceNumber": 3
+      },
+      {
+        "Temperature": 90,
+        "Power": 30,
+        "HoldTime": 120,
+        "deltaT": 1,
+        "SequenceNumber": 4
+      }
+    ]
+  },
+  {
+    "cemLoaded": false,
+    "DefaultMicrowaveMethodID": 0,
+    "ProcessTypeID": 2,
+    "ScaleID": 2,
+    "MethodName": "DCA Trityl Loading",
+    "BubbleOnSeconds": 2,
+    "BubbleOffSeconds": 3,
+    "stages": [
+      {
+        "Temperature": 80,
+        "Power": 75,
+        "HoldTime": 60,
+        "deltaT": 2,
+        "SequenceNumber": 1
+      },
+      {
+        "Temperature": 90,
+        "Power": 20,
+        "HoldTime": 540,
+        "deltaT": 1,
+        "SequenceNumber": 2
+      }
+    ]
+  },
+  {
+    "cemLoaded": false,
+    "DefaultMicrowaveMethodID": 105,
+    "ProcessTypeID": 1,
+    "ScaleID": 2,
+    "MethodName": "75°C Deprotection",
+    "BubbleOnSeconds": 2,
+    "BubbleOffSeconds": 3,
+    "stages": [
+      {
+        "Temperature": 75,
+        "Power": 60,
+        "HoldTime": 180,
+        "deltaT": 2,
+        "SequenceNumber": 1
+      }
+    ]
+  },
+  {
+    "cemLoaded": false,
+    "DefaultMicrowaveMethodID": 108,
+    "ProcessTypeID": 2,
+    "ScaleID": 2,
+    "MethodName": "50°C 10 min Coupling",
+    "BubbleOnSeconds": 2,
+    "BubbleOffSeconds": 3,
+    "stages": [
+      {
+        "Temperature": 25,
+        "Power": 0,
+        "HoldTime": 300,
+        "deltaT": 2,
+        "SequenceNumber": 1
+      },
+      {
+        "Temperature": 50,
+        "Power": 35,
+        "HoldTime": 600,
+        "deltaT": 1,
+        "SequenceNumber": 2
+      }
+    ]
+  },
+  {
+    "cemLoaded": false,
+    "DefaultMicrowaveMethodID": 0,
+    "ProcessTypeID": 1,
+    "ScaleID": 2,
+    "MethodName": "Conventional Deprotection_10m",
+    "BubbleOnSeconds": 2,
+    "BubbleOffSeconds": 3,
+    "stages": [
+      {
+        "Temperature": 25,
+        "Power": 0,
+        "HoldTime": 600,
+        "deltaT": 2,
+        "SequenceNumber": 1
+      }
+    ]
+  },
+  {
+    "cemLoaded": false,
+    "DefaultMicrowaveMethodID": 111,
+    "ProcessTypeID": 2,
+    "ScaleID": 2,
+    "MethodName": "Conventional Coupling",
+    "BubbleOnSeconds": 2,
+    "BubbleOffSeconds": 3,
+    "stages": [
+      {
+        "Temperature": 25,
+        "Power": 0,
+        "HoldTime": 3600,
+        "deltaT": 2,
+        "SequenceNumber": 1
+      }
+    ]
+  },
+  {
+    "cemLoaded": false,
+    "DefaultMicrowaveMethodID": 107,
+    "ProcessTypeID": 1,
+    "ScaleID": 2,
+    "MethodName": "Conventional Deprotection",
+    "BubbleOnSeconds": 2,
+    "BubbleOffSeconds": 3,
+    "stages": [
+      {
+        "Temperature": 25,
+        "Power": 0,
+        "HoldTime": 900,
+        "deltaT": 2,
+        "SequenceNumber": 1
+      }
+    ]
+  },
+  {
+    "cemLoaded": false,
+    "DefaultMicrowaveMethodID": 110,
+    "ProcessTypeID": 2,
+    "ScaleID": 2,
+    "MethodName": "Arg Conventional Coupling",
+    "BubbleOnSeconds": 2,
+    "BubbleOffSeconds": 3,
+    "stages": [
+      {
+        "Temperature": 25,
+        "Power": 0,
+        "HoldTime": 1800,
+        "deltaT": 2,
+        "SequenceNumber": 1
+      }
+    ]
+  },
+  {
+    "cemLoaded": false,
+    "DefaultMicrowaveMethodID": 0,
+    "ProcessTypeID": 2,
+    "ScaleID": 2,
+    "MethodName": " Conventional Coupling_2hr",
+    "BubbleOnSeconds": 2,
+    "BubbleOffSeconds": 3,
+    "stages": [
+      {
+        "Temperature": 25,
+        "Power": 0,
+        "HoldTime": 7200,
+        "deltaT": 2,
+        "SequenceNumber": 1
+      }
+    ]
+  }
+]
+*&^%^&*
+[
+  {
+    "DefaultCycleID": 110,
+    "cycleTypeID": 1,
+    "scaleID": 2,
+    "resinSwellingType": 2,
+    "uvCycle": false,
+    "markCycleForMethodExport": true,
+    "cycleClassID": 1,
+    "cycleName": "0.10-Resin Swelling (HS)",
+    "ExportOnly_UVDeprotectionStartStepNumber": 0,
+    "ExportOnly_UVDeprotectionEndStepNumber": 0,
+    "ExportOnly_UVDoubleCoupleStartStepNumber": 0,
+    "ExportOnly_UVDoubleCoupleEndStepNumber": 0,
+    "ExportOnly_UVCappingStartStepNumber": 0,
+    "ExportOnly_UVCappingEndStepNumber": 0,
+    "cemLoaded": true,
+    "cycleSteps": [
+      {
+        "OperationName": "Swell Resin",
+        "StepNumber": 1,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "15",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "300",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DefaultCycleID": 115,
+    "cycleTypeID": 2,
+    "scaleID": 2,
+    "resinSwellingType": 2,
+    "uvCycle": true,
+    "markCycleForMethodExport": true,
+    "cycleClassID": 2,
+    "cycleName": "0.10-Single Coupling (HS) (UV)",
+    "ExportOnly_UVDeprotectionStartStepNumber": 2,
+    "ExportOnly_UVDeprotectionEndStepNumber": 5,
+    "ExportOnly_UVDoubleCoupleStartStepNumber": 6,
+    "ExportOnly_UVDoubleCoupleEndStepNumber": 0,
+    "ExportOnly_UVCappingStartStepNumber": 0,
+    "ExportOnly_UVCappingEndStepNumber": 0,
+    "cemLoaded": true,
+    "cycleSteps": [
+      {
+        "OperationName": "Deprotection",
+        "StepNumber": 1,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "12",
+            "ParameterValueMethodName": "Standard Deprotection",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 69,
+            "ParameterValue": "4.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 2,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "15",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 3,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 4,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 5,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Coupling",
+        "StepNumber": 6,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "13",
+            "ParameterValueMethodName": "Standard Coupling",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 7,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": true
+          },
+          {
+            "OperationParameterNameID": 68,
+            "ParameterValue": "2.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 42,
+            "ParameterValue": "28",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 22,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 41,
+            "ParameterValue": "29",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 23,
+            "ParameterValue": "0.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 25,
+            "ParameterValue": "0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 44,
+            "ParameterValue": "29",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 43,
+            "ParameterValue": "0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 87,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash Thru Manifold",
+        "StepNumber": 7,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 8,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DefaultCycleID": 121,
+    "cycleTypeID": 3,
+    "scaleID": 2,
+    "resinSwellingType": 2,
+    "uvCycle": true,
+    "markCycleForMethodExport": true,
+    "cycleClassID": 6,
+    "cycleName": "0.10-Final Deprotection (HS) (UV)",
+    "ExportOnly_UVDeprotectionStartStepNumber": 2,
+    "ExportOnly_UVDeprotectionEndStepNumber": 5,
+    "ExportOnly_UVDoubleCoupleStartStepNumber": 0,
+    "ExportOnly_UVDoubleCoupleEndStepNumber": 0,
+    "ExportOnly_UVCappingStartStepNumber": 0,
+    "ExportOnly_UVCappingEndStepNumber": 0,
+    "cemLoaded": true,
+    "cycleSteps": [
+      {
+        "OperationName": "Deprotection",
+        "StepNumber": 1,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "12",
+            "ParameterValueMethodName": "Standard Deprotection",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 69,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 2,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5.0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 3,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5.0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 4,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5.0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Deprotection",
+        "StepNumber": 5,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "12",
+            "ParameterValueMethodName": "Standard Deprotection",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 69,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 6,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5.0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 7,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5.0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 8,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5.0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 9,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5.0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DefaultCycleID": 0,
+    "cycleTypeID": 2,
+    "scaleID": 2,
+    "resinSwellingType": 2,
+    "uvCycle": true,
+    "markCycleForMethodExport": true,
+    "cycleClassID": 2,
+    "cycleName": "0.10-Trityl DCA Loading (HS) (UV)",
+    "ExportOnly_UVDeprotectionStartStepNumber": 0,
+    "ExportOnly_UVDeprotectionEndStepNumber": 0,
+    "ExportOnly_UVDoubleCoupleStartStepNumber": 0,
+    "ExportOnly_UVDoubleCoupleEndStepNumber": 0,
+    "ExportOnly_UVCappingStartStepNumber": 0,
+    "ExportOnly_UVCappingEndStepNumber": 0,
+    "cemLoaded": false,
+    "cycleSteps": [
+      {
+        "OperationName": "Coupling (Trityl Loading)",
+        "StepNumber": 1,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "142",
+            "ParameterValueMethodName": "DCA Trityl Loading",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 7,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": true
+          },
+          {
+            "OperationParameterNameID": 68,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 41,
+            "ParameterValue": "22",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 23,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 87,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Coupling (Trityl Loading)",
+        "StepNumber": 2,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "142",
+            "ParameterValueMethodName": "DCA Trityl Loading",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 7,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": true
+          },
+          {
+            "OperationParameterNameID": 68,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 41,
+            "ParameterValue": "22",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 23,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 87,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash Thru Manifold",
+        "StepNumber": 3,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 4,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 5,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 6,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 7,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DefaultCycleID": 0,
+    "cycleTypeID": 2,
+    "scaleID": 2,
+    "resinSwellingType": 2,
+    "uvCycle": true,
+    "markCycleForMethodExport": true,
+    "cycleClassID": 3,
+    "cycleName": "0.10-Double 50°C 10 min Coupling (HS) (UV) 2",
+    "ExportOnly_UVDeprotectionStartStepNumber": 1,
+    "ExportOnly_UVDeprotectionEndStepNumber": 0,
+    "ExportOnly_UVDoubleCoupleStartStepNumber": 2,
+    "ExportOnly_UVDoubleCoupleEndStepNumber": 7,
+    "ExportOnly_UVCappingStartStepNumber": 0,
+    "ExportOnly_UVCappingEndStepNumber": 0,
+    "cemLoaded": false,
+    "cycleSteps": [
+      {
+        "OperationName": "Deprotection",
+        "StepNumber": 1,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "16",
+            "ParameterValueMethodName": "75°C Deprotection",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 69,
+            "ParameterValue": "4.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 2,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "15",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 3,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 4,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 5,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Coupling",
+        "StepNumber": 6,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "18",
+            "ParameterValueMethodName": "50°C 10 min Coupling",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 7,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": true
+          },
+          {
+            "OperationParameterNameID": 68,
+            "ParameterValue": "2.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 42,
+            "ParameterValue": "28",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 22,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 41,
+            "ParameterValue": "29",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 23,
+            "ParameterValue": "0.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 25,
+            "ParameterValue": "0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 44,
+            "ParameterValue": "29",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 43,
+            "ParameterValue": "0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 87,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Coupling",
+        "StepNumber": 7,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "18",
+            "ParameterValueMethodName": "50°C 10 min Coupling",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 7,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": true
+          },
+          {
+            "OperationParameterNameID": 68,
+            "ParameterValue": "2.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 42,
+            "ParameterValue": "28",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 22,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 41,
+            "ParameterValue": "29",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 23,
+            "ParameterValue": "0.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 25,
+            "ParameterValue": "0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 44,
+            "ParameterValue": "29",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 43,
+            "ParameterValue": "0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 87,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash Thru Manifold",
+        "StepNumber": 8,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 9,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DefaultCycleID": 0,
+    "cycleTypeID": 2,
+    "scaleID": 2,
+    "resinSwellingType": 2,
+    "uvCycle": true,
+    "markCycleForMethodExport": true,
+    "cycleClassID": 2,
+    "cycleName": "0.10-Single Coupling (HS) (UV)_RT",
+    "ExportOnly_UVDeprotectionStartStepNumber": 1,
+    "ExportOnly_UVDeprotectionEndStepNumber": 0,
+    "ExportOnly_UVDoubleCoupleStartStepNumber": 2,
+    "ExportOnly_UVDoubleCoupleEndStepNumber": 6,
+    "ExportOnly_UVCappingStartStepNumber": 0,
+    "ExportOnly_UVCappingEndStepNumber": 0,
+    "cemLoaded": false,
+    "cycleSteps": [
+      {
+        "OperationName": "Deprotection",
+        "StepNumber": 1,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "161",
+            "ParameterValueMethodName": "Conventional Deprotection_10m",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 69,
+            "ParameterValue": "4.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 2,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "15",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 3,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 4,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 5,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Coupling",
+        "StepNumber": 6,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "22",
+            "ParameterValueMethodName": "Conventional Coupling",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 7,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": true
+          },
+          {
+            "OperationParameterNameID": 68,
+            "ParameterValue": "2.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 42,
+            "ParameterValue": "28",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 22,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 41,
+            "ParameterValue": "29",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 23,
+            "ParameterValue": "0.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 25,
+            "ParameterValue": "0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 44,
+            "ParameterValue": "29",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 43,
+            "ParameterValue": "0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 87,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash Thru Manifold",
+        "StepNumber": 7,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 8,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DefaultCycleID": 0,
+    "cycleTypeID": 2,
+    "scaleID": 2,
+    "resinSwellingType": 2,
+    "uvCycle": true,
+    "markCycleForMethodExport": true,
+    "cycleClassID": 5,
+    "cycleName": "0.10-Double Coupling (HS) (UV)_RT",
+    "ExportOnly_UVDeprotectionStartStepNumber": 1,
+    "ExportOnly_UVDeprotectionEndStepNumber": 0,
+    "ExportOnly_UVDoubleCoupleStartStepNumber": 2,
+    "ExportOnly_UVDoubleCoupleEndStepNumber": 7,
+    "ExportOnly_UVCappingStartStepNumber": 0,
+    "ExportOnly_UVCappingEndStepNumber": 0,
+    "cemLoaded": false,
+    "cycleSteps": [
+      {
+        "OperationName": "Deprotection",
+        "StepNumber": 1,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "20",
+            "ParameterValueMethodName": "Conventional Deprotection",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 69,
+            "ParameterValue": "4.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 2,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "15",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 3,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 4,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 5,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Coupling",
+        "StepNumber": 6,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "21",
+            "ParameterValueMethodName": "Arg Conventional Coupling",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 7,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": true
+          },
+          {
+            "OperationParameterNameID": 68,
+            "ParameterValue": "2.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 42,
+            "ParameterValue": "28",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 22,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 41,
+            "ParameterValue": "29",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 23,
+            "ParameterValue": "0.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 25,
+            "ParameterValue": "0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 44,
+            "ParameterValue": "29",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 43,
+            "ParameterValue": "0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 87,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Coupling",
+        "StepNumber": 7,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "21",
+            "ParameterValueMethodName": "Arg Conventional Coupling",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 7,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": true
+          },
+          {
+            "OperationParameterNameID": 68,
+            "ParameterValue": "2.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 42,
+            "ParameterValue": "28",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 22,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 41,
+            "ParameterValue": "29",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 23,
+            "ParameterValue": "0.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 25,
+            "ParameterValue": "0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 44,
+            "ParameterValue": "29",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 43,
+            "ParameterValue": "0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 87,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash Thru Manifold",
+        "StepNumber": 8,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 9,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DefaultCycleID": 0,
+    "cycleTypeID": 2,
+    "scaleID": 2,
+    "resinSwellingType": 2,
+    "uvCycle": true,
+    "markCycleForMethodExport": true,
+    "cycleClassID": 5,
+    "cycleName": "0.10-Long Double Coupling (HS) (UV)_RT 2",
+    "ExportOnly_UVDeprotectionStartStepNumber": 1,
+    "ExportOnly_UVDeprotectionEndStepNumber": 0,
+    "ExportOnly_UVDoubleCoupleStartStepNumber": 2,
+    "ExportOnly_UVDoubleCoupleEndStepNumber": 7,
+    "ExportOnly_UVCappingStartStepNumber": 0,
+    "ExportOnly_UVCappingEndStepNumber": 0,
+    "cemLoaded": false,
+    "cycleSteps": [
+      {
+        "OperationName": "Deprotection",
+        "StepNumber": 1,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "20",
+            "ParameterValueMethodName": "Conventional Deprotection",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 69,
+            "ParameterValue": "4.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 2,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "15",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 3,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 4,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 5,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Coupling",
+        "StepNumber": 6,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "22",
+            "ParameterValueMethodName": "Conventional Coupling",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 7,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": true
+          },
+          {
+            "OperationParameterNameID": 68,
+            "ParameterValue": "2.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 42,
+            "ParameterValue": "28",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 22,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 41,
+            "ParameterValue": "29",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 23,
+            "ParameterValue": "0.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 25,
+            "ParameterValue": "0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 44,
+            "ParameterValue": "29",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 43,
+            "ParameterValue": "0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 87,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Coupling",
+        "StepNumber": 7,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "22",
+            "ParameterValueMethodName": "Conventional Coupling",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 7,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": true
+          },
+          {
+            "OperationParameterNameID": 68,
+            "ParameterValue": "2.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 42,
+            "ParameterValue": "28",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 22,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 41,
+            "ParameterValue": "29",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 23,
+            "ParameterValue": "0.5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 25,
+            "ParameterValue": "0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 44,
+            "ParameterValue": "29",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 43,
+            "ParameterValue": "0",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 87,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash Thru Manifold",
+        "StepNumber": 8,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 9,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DefaultCycleID": 0,
+    "cycleTypeID": 2,
+    "scaleID": 2,
+    "resinSwellingType": 2,
+    "uvCycle": true,
+    "markCycleForMethodExport": true,
+    "cycleClassID": 2,
+    "cycleName": "0.10-Trityl DCA Loading (HS) (UV)_RT",
+    "ExportOnly_UVDeprotectionStartStepNumber": 0,
+    "ExportOnly_UVDeprotectionEndStepNumber": 0,
+    "ExportOnly_UVDoubleCoupleStartStepNumber": 0,
+    "ExportOnly_UVDoubleCoupleEndStepNumber": 0,
+    "ExportOnly_UVCappingStartStepNumber": 0,
+    "ExportOnly_UVCappingEndStepNumber": 0,
+    "cemLoaded": false,
+    "cycleSteps": [
+      {
+        "OperationName": "Coupling (Trityl Loading)",
+        "StepNumber": 1,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "162",
+            "ParameterValueMethodName": " Conventional Coupling_2hr",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 7,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": true
+          },
+          {
+            "OperationParameterNameID": 68,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 41,
+            "ParameterValue": "22",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 23,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 87,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Coupling (Trityl Loading)",
+        "StepNumber": 2,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 9,
+            "ParameterValue": "162",
+            "ParameterValueMethodName": " Conventional Coupling_2hr",
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 7,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": true
+          },
+          {
+            "OperationParameterNameID": 68,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 41,
+            "ParameterValue": "22",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 23,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 87,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash Thru Manifold",
+        "StepNumber": 3,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 4,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 5,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 6,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "2",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      },
+      {
+        "OperationName": "Wash",
+        "StepNumber": 7,
+        "Pause": false,
+        "cycleStepParameterValues": [
+          {
+            "OperationParameterNameID": 71,
+            "ParameterValue": "4",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 70,
+            "ParameterValue": "5",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          },
+          {
+            "OperationParameterNameID": 55,
+            "ParameterValue": "1",
+            "ParameterValueMethodName": null,
+            "IsValueFromMethodParameter": false
+          }
+        ]
+      }
+    ]
+  }
+]
+*&^%^&*
+[
+  {
+    "reagentName": "DIC",
+    "density": 0.81,
+    "formulaWeight": 126.2,
+    "reagentTypeID": 3,
+    "reagentMaterialState": 2,
+    "concentration": 0.5
+  },
+  {
+    "reagentName": "Oxyma",
+    "density": 1.0,
+    "formulaWeight": 142.1,
+    "reagentTypeID": 4,
+    "reagentMaterialState": 1,
+    "concentration": 1.0
+  },
+  {
+    "reagentName": "Piperidine",
+    "density": 0.86,
+    "formulaWeight": 85.2,
+    "reagentTypeID": 2,
+    "reagentMaterialState": 2,
+    "concentration": 20.0
+  },
+  {
+    "reagentName": "DMF",
+    "density": 0.94,
+    "formulaWeight": 73.1,
+    "reagentTypeID": 1,
+    "reagentMaterialState": 2,
+    "concentration": 0.0
+  },
+  {
+    "reagentName": "3:1 Acetonitrile:Ethanol",
+    "density": 0.0,
+    "formulaWeight": 0.0,
+    "reagentTypeID": 1,
+    "reagentMaterialState": 2,
+    "concentration": 0.0
+  },
+  {
+    "reagentName": "Acetic Anhydride",
+    "density": 1.08,
+    "formulaWeight": 102.09,
+    "reagentTypeID": 6,
+    "reagentMaterialState": 2,
+    "concentration": 10.0
+  }
+]
+*&^%^&*
+[
+  {
+    "oneLetter": "A",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Ala-OH",
+    "isDefault": true,
+    "residueWeight": 71.079,
+    "formulaWeight": 311.34,
+    "aminoAcid": {
+      "aminoAcidName": "Alanine",
+      "aminoAcidThreeLetter": "Ala",
+      "sideChain": 2
+    }
+  },
+  {
+    "oneLetter": "R",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Arg(Pbf)-OH",
+    "isDefault": true,
+    "residueWeight": 156.189,
+    "formulaWeight": 648.77,
+    "aminoAcid": {
+      "aminoAcidName": "Arginine",
+      "aminoAcidThreeLetter": "Arg",
+      "sideChain": 3
+    }
+  },
+  {
+    "oneLetter": "N",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Asn(Trt)-OH",
+    "isDefault": true,
+    "residueWeight": 114.105,
+    "formulaWeight": 596.68,
+    "aminoAcid": {
+      "aminoAcidName": "Asparagine",
+      "aminoAcidThreeLetter": "Asn",
+      "sideChain": 4
+    }
+  },
+  {
+    "oneLetter": "D",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Asp(OtBu)-OH",
+    "isDefault": true,
+    "residueWeight": 115.089,
+    "formulaWeight": 411.46,
+    "aminoAcid": {
+      "aminoAcidName": "Aspartate",
+      "aminoAcidThreeLetter": "Asp",
+      "sideChain": 4
+    }
+  },
+  {
+    "oneLetter": "C",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Cys(Trt)-OH",
+    "isDefault": true,
+    "residueWeight": 103.145,
+    "formulaWeight": 585.72,
+    "aminoAcid": {
+      "aminoAcidName": "Cysteine",
+      "aminoAcidThreeLetter": "Cys",
+      "sideChain": 1
+    }
+  },
+  {
+    "oneLetter": "Q",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Gln(Trt)-OH",
+    "isDefault": true,
+    "residueWeight": 128.132,
+    "formulaWeight": 610.71,
+    "aminoAcid": {
+      "aminoAcidName": "Glutamine",
+      "aminoAcidThreeLetter": "Gln",
+      "sideChain": 1
+    }
+  },
+  {
+    "oneLetter": "E",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Glu(OtBu)-OH",
+    "isDefault": true,
+    "residueWeight": 129.116,
+    "formulaWeight": 425.48,
+    "aminoAcid": {
+      "aminoAcidName": "Glutamate",
+      "aminoAcidThreeLetter": "Glu",
+      "sideChain": 4
+    }
+  },
+  {
+    "oneLetter": "G",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Gly-OH",
+    "isDefault": true,
+    "residueWeight": 57.052,
+    "formulaWeight": 297.31,
+    "aminoAcid": {
+      "aminoAcidName": "Glycine",
+      "aminoAcidThreeLetter": "Gly",
+      "sideChain": 1
+    }
+  },
+  {
+    "oneLetter": "H",
+    "aminoAcidSpecificDerivativeName": "Fmoc-His(Trt)-OH",
+    "isDefault": true,
+    "residueWeight": 137.142,
+    "formulaWeight": 619.72,
+    "aminoAcid": {
+      "aminoAcidName": "Histidine",
+      "aminoAcidThreeLetter": "His",
+      "sideChain": 3
+    }
+  },
+  {
+    "oneLetter": "I",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Ile-OH",
+    "isDefault": true,
+    "residueWeight": 113.161,
+    "formulaWeight": 353.42,
+    "aminoAcid": {
+      "aminoAcidName": "Isoleucine",
+      "aminoAcidThreeLetter": "Ile",
+      "sideChain": 2
+    }
+  },
+  {
+    "oneLetter": "L",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+    "isDefault": true,
+    "residueWeight": 113.161,
+    "formulaWeight": 353.42,
+    "aminoAcid": {
+      "aminoAcidName": "Leucine",
+      "aminoAcidThreeLetter": "Leu",
+      "sideChain": 2
+    }
+  },
+  {
+    "oneLetter": "K",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Lys(Boc)-OH",
+    "isDefault": true,
+    "residueWeight": 128.175,
+    "formulaWeight": 468.55,
+    "aminoAcid": {
+      "aminoAcidName": "Lysine",
+      "aminoAcidThreeLetter": "Lys",
+      "sideChain": 3
+    }
+  },
+  {
+    "oneLetter": "M",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Met-OH",
+    "isDefault": true,
+    "residueWeight": 131.198,
+    "formulaWeight": 371.45,
+    "aminoAcid": {
+      "aminoAcidName": "Methionine",
+      "aminoAcidThreeLetter": "Met",
+      "sideChain": 2
+    }
+  },
+  {
+    "oneLetter": "F",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Phe-OH",
+    "isDefault": true,
+    "residueWeight": 147.178,
+    "formulaWeight": 387.44,
+    "aminoAcid": {
+      "aminoAcidName": "Phenylalanine",
+      "aminoAcidThreeLetter": "Phe",
+      "sideChain": 2
+    }
+  },
+  {
+    "oneLetter": "P",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Pro-OH",
+    "isDefault": true,
+    "residueWeight": 97.118,
+    "formulaWeight": 337.38,
+    "aminoAcid": {
+      "aminoAcidName": "Proline",
+      "aminoAcidThreeLetter": "Pro",
+      "sideChain": 2
+    }
+  },
+  {
+    "oneLetter": "S",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Ser(tBu)-OH",
+    "isDefault": true,
+    "residueWeight": 87.079,
+    "formulaWeight": 383.45,
+    "aminoAcid": {
+      "aminoAcidName": "Serine",
+      "aminoAcidThreeLetter": "Ser",
+      "sideChain": 1
+    }
+  },
+  {
+    "oneLetter": "T",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Thr(tBu)-OH",
+    "isDefault": true,
+    "residueWeight": 101.106,
+    "formulaWeight": 397.47,
+    "aminoAcid": {
+      "aminoAcidName": "Threonine",
+      "aminoAcidThreeLetter": "Thr",
+      "sideChain": 1
+    }
+  },
+  {
+    "oneLetter": "W",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Trp(Boc)-OH",
+    "isDefault": true,
+    "residueWeight": 186.215,
+    "formulaWeight": 526.59,
+    "aminoAcid": {
+      "aminoAcidName": "Tryptophan",
+      "aminoAcidThreeLetter": "Trp",
+      "sideChain": 2
+    }
+  },
+  {
+    "oneLetter": "Y",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Tyr(tBu)-OH",
+    "isDefault": true,
+    "residueWeight": 163.178,
+    "formulaWeight": 459.54,
+    "aminoAcid": {
+      "aminoAcidName": "Tyrosine",
+      "aminoAcidThreeLetter": "Tyr",
+      "sideChain": 1
+    }
+  },
+  {
+    "oneLetter": "V",
+    "aminoAcidSpecificDerivativeName": "Fmoc-Val-OH",
+    "isDefault": true,
+    "residueWeight": 99.134,
+    "formulaWeight": 339.39,
+    "aminoAcid": {
+      "aminoAcidName": "Valine",
+      "aminoAcidThreeLetter": "Val",
+      "sideChain": 2
+    }
+  },
+  {
+    "oneLetter": "1",
+    "aminoAcidSpecificDerivativeName": "External Amino Acid 1",
+    "isDefault": true,
+    "residueWeight": 0.0,
+    "formulaWeight": 0.0,
+    "aminoAcid": {
+      "aminoAcidName": "External-1",
+      "aminoAcidThreeLetter": "EX1",
+      "sideChain": 0
+    }
+  },
+  {
+    "oneLetter": "2",
+    "aminoAcidSpecificDerivativeName": "External Amino Acid 2",
+    "isDefault": true,
+    "residueWeight": 0.0,
+    "formulaWeight": 0.0,
+    "aminoAcid": {
+      "aminoAcidName": "External-2",
+      "aminoAcidThreeLetter": "EX2",
+      "sideChain": 0
+    }
+  },
+  {
+    "oneLetter": "3",
+    "aminoAcidSpecificDerivativeName": "External Amino Acid 3",
+    "isDefault": true,
+    "residueWeight": 0.0,
+    "formulaWeight": 0.0,
+    "aminoAcid": {
+      "aminoAcidName": "External-3",
+      "aminoAcidThreeLetter": "EX3",
+      "sideChain": 0
+    }
+  },
+  {
+    "oneLetter": "4",
+    "aminoAcidSpecificDerivativeName": "External Amino Acid 4",
+    "isDefault": true,
+    "residueWeight": 0.0,
+    "formulaWeight": 0.0,
+    "aminoAcid": {
+      "aminoAcidName": "External-4",
+      "aminoAcidThreeLetter": "EX4",
+      "sideChain": 0
+    }
+  },
+  {
+    "oneLetter": "5",
+    "aminoAcidSpecificDerivativeName": "External Amino Acid 5",
+    "isDefault": true,
+    "residueWeight": 0.0,
+    "formulaWeight": 0.0,
+    "aminoAcid": {
+      "aminoAcidName": "External-5",
+      "aminoAcidThreeLetter": "EX5",
+      "sideChain": 0
+    }
+  },
+  {
+    "oneLetter": "6",
+    "aminoAcidSpecificDerivativeName": "External Amino Acid 6",
+    "isDefault": true,
+    "residueWeight": 0.0,
+    "formulaWeight": 0.0,
+    "aminoAcid": {
+      "aminoAcidName": "External-6",
+      "aminoAcidThreeLetter": "EX6",
+      "sideChain": 0
+    }
+  },
+  {
+    "oneLetter": "7",
+    "aminoAcidSpecificDerivativeName": "External Amino Acid 7",
+    "isDefault": true,
+    "residueWeight": 0.0,
+    "formulaWeight": 0.0,
+    "aminoAcid": {
+      "aminoAcidName": "External-7",
+      "aminoAcidThreeLetter": "EX7",
+      "sideChain": 0
+    }
+  },
+  {
+    "oneLetter": "W",
+    "aminoAcidSpecificDerivativeName": "Cl Tryptophan Derivative",
+    "isDefault": false,
+    "residueWeight": 0.0,
+    "formulaWeight": 460.91,
+    "aminoAcid": {
+      "aminoAcidName": "Tryptophan",
+      "aminoAcidThreeLetter": "Trp",
+      "sideChain": 2
+    }
+  }
+]
+*&^%^&*
+*&^%^&*
+[
+  {
+    "bottleSetupName": "Standard 2",
+    "bottleSetupPositions": [
+      {
+        "positionID": 1,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Ala-OH"
+      },
+      {
+        "positionID": 2,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Arg(Pbf)-OH"
+      },
+      {
+        "positionID": 3,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Asn(Trt)-OH"
+      },
+      {
+        "positionID": 4,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Asp(OtBu)-OH"
+      },
+      {
+        "positionID": 5,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Cys(Trt)-OH"
+      },
+      {
+        "positionID": 6,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Gln(Trt)-OH"
+      },
+      {
+        "positionID": 7,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Glu(OtBu)-OH"
+      },
+      {
+        "positionID": 8,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Gly-OH"
+      },
+      {
+        "positionID": 9,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-His(Trt)-OH"
+      },
+      {
+        "positionID": 10,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Ile-OH"
+      },
+      {
+        "positionID": 11,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Leu-OH"
+      },
+      {
+        "positionID": 12,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Lys(Boc)-OH"
+      },
+      {
+        "positionID": 13,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Met-OH"
+      },
+      {
+        "positionID": 14,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Phe-OH"
+      },
+      {
+        "positionID": 15,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Pro-OH"
+      },
+      {
+        "positionID": 16,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Ser(tBu)-OH"
+      },
+      {
+        "positionID": 17,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Thr(tBu)-OH"
+      },
+      {
+        "positionID": 18,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Trp(Boc)-OH"
+      },
+      {
+        "positionID": 19,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Tyr(tBu)-OH"
+      },
+      {
+        "positionID": 20,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Val-OH"
+      },
+      {
+        "positionID": 21,
+        "ReagentTypeID": 5,
+        "reagentName": "External Amino Acid 1"
+      },
+      {
+        "positionID": 22,
+        "ReagentTypeID": 5,
+        "reagentName": "External Amino Acid 2"
+      },
+      {
+        "positionID": 23,
+        "ReagentTypeID": 5,
+        "reagentName": "External Amino Acid 3"
+      },
+      {
+        "positionID": 24,
+        "ReagentTypeID": 5,
+        "reagentName": "External Amino Acid 4"
+      },
+      {
+        "positionID": 25,
+        "ReagentTypeID": 5,
+        "reagentName": "External Amino Acid 5"
+      },
+      {
+        "positionID": 26,
+        "ReagentTypeID": 5,
+        "reagentName": "External Amino Acid 6"
+      },
+      {
+        "positionID": 27,
+        "ReagentTypeID": 5,
+        "reagentName": "External Amino Acid 7"
+      },
+      {
+        "positionID": 28,
+        "ReagentTypeID": 3,
+        "reagentName": "DIC"
+      },
+      {
+        "positionID": 29,
+        "ReagentTypeID": 4,
+        "reagentName": "Oxyma"
+      },
+      {
+        "positionID": 31,
+        "ReagentTypeID": 2,
+        "reagentName": "Piperidine"
+      },
+      {
+        "positionID": 30,
+        "ReagentTypeID": 1,
+        "reagentName": "DMF"
+      },
+      {
+        "positionID": 32,
+        "ReagentTypeID": 1,
+        "reagentName": "3:1 Acetonitrile:Ethanol"
+      },
+      {
+        "positionID": 33,
+        "ReagentTypeID": 1,
+        "reagentName": "DMF"
+      },
+      {
+        "positionID": 34,
+        "ReagentTypeID": 6,
+        "reagentName": "Acetic Anhydride"
+      }
+    ]
+  },
+  {
+    "bottleSetupName": "Cristina_Cl W",
+    "bottleSetupPositions": [
+      {
+        "positionID": 1,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Ala-OH"
+      },
+      {
+        "positionID": 2,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Arg(Pbf)-OH"
+      },
+      {
+        "positionID": 3,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Asn(Trt)-OH"
+      },
+      {
+        "positionID": 4,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Asp(OtBu)-OH"
+      },
+      {
+        "positionID": 5,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Cys(Trt)-OH"
+      },
+      {
+        "positionID": 6,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Gln(Trt)-OH"
+      },
+      {
+        "positionID": 7,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Glu(OtBu)-OH"
+      },
+      {
+        "positionID": 8,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Gly-OH"
+      },
+      {
+        "positionID": 9,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-His(Trt)-OH"
+      },
+      {
+        "positionID": 10,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Ile-OH"
+      },
+      {
+        "positionID": 11,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Leu-OH"
+      },
+      {
+        "positionID": 12,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Lys(Boc)-OH"
+      },
+      {
+        "positionID": 13,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Met-OH"
+      },
+      {
+        "positionID": 14,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Phe-OH"
+      },
+      {
+        "positionID": 15,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Pro-OH"
+      },
+      {
+        "positionID": 16,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Ser(tBu)-OH"
+      },
+      {
+        "positionID": 17,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Thr(tBu)-OH"
+      },
+      {
+        "positionID": 18,
+        "ReagentTypeID": 5,
+        "reagentName": "Cl Tryptophan Derivative"
+      },
+      {
+        "positionID": 19,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Tyr(tBu)-OH"
+      },
+      {
+        "positionID": 20,
+        "ReagentTypeID": 5,
+        "reagentName": "Fmoc-Val-OH"
+      },
+      {
+        "positionID": 21,
+        "ReagentTypeID": 5,
+        "reagentName": "External Amino Acid 1"
+      },
+      {
+        "positionID": 22,
+        "ReagentTypeID": 5,
+        "reagentName": "External Amino Acid 2"
+      },
+      {
+        "positionID": 23,
+        "ReagentTypeID": 5,
+        "reagentName": "External Amino Acid 3"
+      },
+      {
+        "positionID": 24,
+        "ReagentTypeID": 5,
+        "reagentName": "External Amino Acid 4"
+      },
+      {
+        "positionID": 25,
+        "ReagentTypeID": 5,
+        "reagentName": "External Amino Acid 5"
+      },
+      {
+        "positionID": 26,
+        "ReagentTypeID": 5,
+        "reagentName": "External Amino Acid 6"
+      },
+      {
+        "positionID": 27,
+        "ReagentTypeID": 5,
+        "reagentName": "External Amino Acid 7"
+      },
+      {
+        "positionID": 28,
+        "ReagentTypeID": 3,
+        "reagentName": "DIC"
+      },
+      {
+        "positionID": 29,
+        "ReagentTypeID": 4,
+        "reagentName": "Oxyma"
+      },
+      {
+        "positionID": 31,
+        "ReagentTypeID": 2,
+        "reagentName": "Piperidine"
+      },
+      {
+        "positionID": 30,
+        "ReagentTypeID": 1,
+        "reagentName": "DMF"
+      },
+      {
+        "positionID": 32,
+        "ReagentTypeID": 1,
+        "reagentName": "3:1 Acetonitrile:Ethanol"
+      },
+      {
+        "positionID": 33,
+        "ReagentTypeID": 1,
+        "reagentName": "DMF"
+      },
+      {
+        "positionID": 34,
+        "ReagentTypeID": 6,
+        "reagentName": "Acetic Anhydride"
+      }
+    ]
+  }
+]
+*&^%^&*
+[
+  {
+    "scaleID": 2,
+    "resinTypeID": 0,
+    "cTerminus": 0,
+    "resinSwellingType": 2,
+    "ResinCycleName": "0.10-Resin Swelling (HS)",
+    "FinalDeprotectionCycleName": "0.10-Final Deprotection (HS) (UV)",
+    "BottleSetupName": "Standard 2",
+    "FolderName": "CEM",
+    "methodName": "CHLPWASGL",
+    "cemLoaded": false,
+    "comment": "",
+    "resinName": "",
+    "resinLoading": 0.33,
+    "isUVMethod": true,
+    "aminoAcids": [
+      {
+        "specificDerivative": {
+          "oneLetter": "C",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Cys(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 103.145,
+          "formulaWeight": 585.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 5,
+        "sequenceNumber": 1,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Double 50°C 10 min Coupling (HS) (UV) 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "H",
+          "aminoAcidSpecificDerivativeName": "Fmoc-His(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 137.142,
+          "formulaWeight": 619.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 9,
+        "sequenceNumber": 2,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Double 50°C 10 min Coupling (HS) (UV) 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 3,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "P",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Pro-OH",
+          "isDefault": true,
+          "residueWeight": 97.118,
+          "formulaWeight": 337.38,
+          "aminoAcid": null
+        },
+        "BottlePosition": 15,
+        "sequenceNumber": 4,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "W",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Trp(Boc)-OH",
+          "isDefault": true,
+          "residueWeight": 186.215,
+          "formulaWeight": 526.59,
+          "aminoAcid": null
+        },
+        "BottlePosition": 18,
+        "sequenceNumber": 5,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "A",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ala-OH",
+          "isDefault": true,
+          "residueWeight": 71.079,
+          "formulaWeight": 311.34,
+          "aminoAcid": null
+        },
+        "BottlePosition": 1,
+        "sequenceNumber": 6,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "S",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ser(tBu)-OH",
+          "isDefault": true,
+          "residueWeight": 87.079,
+          "formulaWeight": 383.45,
+          "aminoAcid": null
+        },
+        "BottlePosition": 16,
+        "sequenceNumber": 7,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "G",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Gly-OH",
+          "isDefault": true,
+          "residueWeight": 57.052,
+          "formulaWeight": 297.31,
+          "aminoAcid": null
+        },
+        "BottlePosition": 8,
+        "sequenceNumber": 8,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 9,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      }
+    ]
+  },
+  {
+    "scaleID": 2,
+    "resinTypeID": 0,
+    "cTerminus": 0,
+    "resinSwellingType": 2,
+    "ResinCycleName": "0.10-Resin Swelling (HS)",
+    "FinalDeprotectionCycleName": "0.10-Final Deprotection (HS) (UV)",
+    "BottleSetupName": "Cristina_Cl W",
+    "FolderName": "CEM",
+    "methodName": " CHLPWASGL_Cl W",
+    "cemLoaded": false,
+    "comment": "",
+    "resinName": "",
+    "resinLoading": 0.0,
+    "isUVMethod": true,
+    "aminoAcids": [
+      {
+        "specificDerivative": {
+          "oneLetter": "C",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Cys(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 103.145,
+          "formulaWeight": 585.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 5,
+        "sequenceNumber": 1,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Double 50°C 10 min Coupling (HS) (UV) 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "H",
+          "aminoAcidSpecificDerivativeName": "Fmoc-His(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 137.142,
+          "formulaWeight": 619.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 9,
+        "sequenceNumber": 2,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Double 50°C 10 min Coupling (HS) (UV) 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 3,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "P",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Pro-OH",
+          "isDefault": true,
+          "residueWeight": 97.118,
+          "formulaWeight": 337.38,
+          "aminoAcid": null
+        },
+        "BottlePosition": 15,
+        "sequenceNumber": 4,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "W",
+          "aminoAcidSpecificDerivativeName": "Cl Tryptophan Derivative",
+          "isDefault": false,
+          "residueWeight": 0.0,
+          "formulaWeight": 460.91,
+          "aminoAcid": null
+        },
+        "BottlePosition": 18,
+        "sequenceNumber": 5,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "A",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ala-OH",
+          "isDefault": true,
+          "residueWeight": 71.079,
+          "formulaWeight": 311.34,
+          "aminoAcid": null
+        },
+        "BottlePosition": 1,
+        "sequenceNumber": 6,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "S",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ser(tBu)-OH",
+          "isDefault": true,
+          "residueWeight": 87.079,
+          "formulaWeight": 383.45,
+          "aminoAcid": null
+        },
+        "BottlePosition": 16,
+        "sequenceNumber": 7,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "G",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Gly-OH",
+          "isDefault": true,
+          "residueWeight": 57.052,
+          "formulaWeight": 297.31,
+          "aminoAcid": null
+        },
+        "BottlePosition": 8,
+        "sequenceNumber": 8,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 9,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      }
+    ]
+  },
+  {
+    "scaleID": 2,
+    "resinTypeID": 1,
+    "cTerminus": 0,
+    "resinSwellingType": 2,
+    "ResinCycleName": "0.10-Resin Swelling (HS)",
+    "FinalDeprotectionCycleName": "0.10-Final Deprotection (HS) (UV)",
+    "BottleSetupName": "Standard 2",
+    "FolderName": "CEM",
+    "methodName": " CHLPWASGL_loading",
+    "cemLoaded": false,
+    "comment": "",
+    "resinName": "",
+    "resinLoading": 0.0,
+    "isUVMethod": true,
+    "aminoAcids": [
+      {
+        "specificDerivative": {
+          "oneLetter": "C",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Cys(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 103.145,
+          "formulaWeight": 585.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 5,
+        "sequenceNumber": 1,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Double 50°C 10 min Coupling (HS) (UV) 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "H",
+          "aminoAcidSpecificDerivativeName": "Fmoc-His(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 137.142,
+          "formulaWeight": 619.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 9,
+        "sequenceNumber": 2,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Double 50°C 10 min Coupling (HS) (UV) 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 3,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "P",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Pro-OH",
+          "isDefault": true,
+          "residueWeight": 97.118,
+          "formulaWeight": 337.38,
+          "aminoAcid": null
+        },
+        "BottlePosition": 15,
+        "sequenceNumber": 4,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "W",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Trp(Boc)-OH",
+          "isDefault": true,
+          "residueWeight": 186.215,
+          "formulaWeight": 526.59,
+          "aminoAcid": null
+        },
+        "BottlePosition": 18,
+        "sequenceNumber": 5,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "A",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ala-OH",
+          "isDefault": true,
+          "residueWeight": 71.079,
+          "formulaWeight": 311.34,
+          "aminoAcid": null
+        },
+        "BottlePosition": 1,
+        "sequenceNumber": 6,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "S",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ser(tBu)-OH",
+          "isDefault": true,
+          "residueWeight": 87.079,
+          "formulaWeight": 383.45,
+          "aminoAcid": null
+        },
+        "BottlePosition": 16,
+        "sequenceNumber": 7,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "G",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Gly-OH",
+          "isDefault": true,
+          "residueWeight": 57.052,
+          "formulaWeight": 297.31,
+          "aminoAcid": null
+        },
+        "BottlePosition": 8,
+        "sequenceNumber": 8,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 9,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Trityl DCA Loading (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      }
+    ]
+  },
+  {
+    "scaleID": 2,
+    "resinTypeID": 0,
+    "cTerminus": 0,
+    "resinSwellingType": 2,
+    "ResinCycleName": "0.10-Resin Swelling (HS)",
+    "FinalDeprotectionCycleName": "0.10-Final Deprotection (HS) (UV)",
+    "BottleSetupName": "Cristina_Cl W",
+    "FolderName": "CEM",
+    "methodName": "CHLPWASGL_Cl W_rt",
+    "cemLoaded": false,
+    "comment": "",
+    "resinName": "",
+    "resinLoading": 0.0,
+    "isUVMethod": true,
+    "aminoAcids": [
+      {
+        "specificDerivative": {
+          "oneLetter": "C",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Cys(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 103.145,
+          "formulaWeight": 585.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 5,
+        "sequenceNumber": 1,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Long Double Coupling (HS) (UV)_RT 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "H",
+          "aminoAcidSpecificDerivativeName": "Fmoc-His(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 137.142,
+          "formulaWeight": 619.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 9,
+        "sequenceNumber": 2,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Long Double Coupling (HS) (UV)_RT 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 3,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "P",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Pro-OH",
+          "isDefault": true,
+          "residueWeight": 97.118,
+          "formulaWeight": 337.38,
+          "aminoAcid": null
+        },
+        "BottlePosition": 15,
+        "sequenceNumber": 4,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "W",
+          "aminoAcidSpecificDerivativeName": "Cl Tryptophan Derivative",
+          "isDefault": false,
+          "residueWeight": 0.0,
+          "formulaWeight": 460.91,
+          "aminoAcid": null
+        },
+        "BottlePosition": 18,
+        "sequenceNumber": 5,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "A",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ala-OH",
+          "isDefault": true,
+          "residueWeight": 71.079,
+          "formulaWeight": 311.34,
+          "aminoAcid": null
+        },
+        "BottlePosition": 1,
+        "sequenceNumber": 6,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "S",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ser(tBu)-OH",
+          "isDefault": true,
+          "residueWeight": 87.079,
+          "formulaWeight": 383.45,
+          "aminoAcid": null
+        },
+        "BottlePosition": 16,
+        "sequenceNumber": 7,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "G",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Gly-OH",
+          "isDefault": true,
+          "residueWeight": 57.052,
+          "formulaWeight": 297.31,
+          "aminoAcid": null
+        },
+        "BottlePosition": 8,
+        "sequenceNumber": 8,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 9,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      }
+    ]
+  },
+  {
+    "scaleID": 2,
+    "resinTypeID": 0,
+    "cTerminus": 0,
+    "resinSwellingType": 2,
+    "ResinCycleName": "0.10-Resin Swelling (HS)",
+    "FinalDeprotectionCycleName": "0.10-Final Deprotection (HS) (UV)",
+    "BottleSetupName": "Standard 2",
+    "FolderName": "CEM",
+    "methodName": "CHLPWASGL_loading_rt",
+    "cemLoaded": false,
+    "comment": "",
+    "resinName": "",
+    "resinLoading": 0.0,
+    "isUVMethod": true,
+    "aminoAcids": [
+      {
+        "specificDerivative": {
+          "oneLetter": "C",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Cys(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 103.145,
+          "formulaWeight": 585.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 5,
+        "sequenceNumber": 1,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Long Double Coupling (HS) (UV)_RT 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "H",
+          "aminoAcidSpecificDerivativeName": "Fmoc-His(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 137.142,
+          "formulaWeight": 619.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 9,
+        "sequenceNumber": 2,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Long Double Coupling (HS) (UV)_RT 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 3,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "P",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Pro-OH",
+          "isDefault": true,
+          "residueWeight": 97.118,
+          "formulaWeight": 337.38,
+          "aminoAcid": null
+        },
+        "BottlePosition": 15,
+        "sequenceNumber": 4,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "W",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Trp(Boc)-OH",
+          "isDefault": true,
+          "residueWeight": 186.215,
+          "formulaWeight": 526.59,
+          "aminoAcid": null
+        },
+        "BottlePosition": 18,
+        "sequenceNumber": 5,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "A",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ala-OH",
+          "isDefault": true,
+          "residueWeight": 71.079,
+          "formulaWeight": 311.34,
+          "aminoAcid": null
+        },
+        "BottlePosition": 1,
+        "sequenceNumber": 6,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "S",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ser(tBu)-OH",
+          "isDefault": true,
+          "residueWeight": 87.079,
+          "formulaWeight": 383.45,
+          "aminoAcid": null
+        },
+        "BottlePosition": 16,
+        "sequenceNumber": 7,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "G",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Gly-OH",
+          "isDefault": true,
+          "residueWeight": 57.052,
+          "formulaWeight": 297.31,
+          "aminoAcid": null
+        },
+        "BottlePosition": 8,
+        "sequenceNumber": 8,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 9,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      }
+    ]
+  },
+  {
+    "scaleID": 2,
+    "resinTypeID": 1,
+    "cTerminus": 0,
+    "resinSwellingType": 2,
+    "ResinCycleName": "0.10-Resin Swelling (HS)",
+    "FinalDeprotectionCycleName": "0.10-Final Deprotection (HS) (UV)",
+    "BottleSetupName": "Standard 2",
+    "FolderName": "CEM",
+    "methodName": "SCHLPW_rt",
+    "cemLoaded": false,
+    "comment": "",
+    "resinName": "",
+    "resinLoading": 0.0,
+    "isUVMethod": true,
+    "aminoAcids": [
+      {
+        "specificDerivative": {
+          "oneLetter": "S",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ser(tBu)-OH",
+          "isDefault": true,
+          "residueWeight": 87.079,
+          "formulaWeight": 383.45,
+          "aminoAcid": null
+        },
+        "BottlePosition": 16,
+        "sequenceNumber": 1,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Long Double Coupling (HS) (UV)_RT 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "C",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Cys(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 103.145,
+          "formulaWeight": 585.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 5,
+        "sequenceNumber": 2,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Long Double Coupling (HS) (UV)_RT 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "H",
+          "aminoAcidSpecificDerivativeName": "Fmoc-His(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 137.142,
+          "formulaWeight": 619.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 9,
+        "sequenceNumber": 3,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Long Double Coupling (HS) (UV)_RT 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 4,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "P",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Pro-OH",
+          "isDefault": true,
+          "residueWeight": 97.118,
+          "formulaWeight": 337.38,
+          "aminoAcid": null
+        },
+        "BottlePosition": 15,
+        "sequenceNumber": 5,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "W",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Trp(Boc)-OH",
+          "isDefault": true,
+          "residueWeight": 186.215,
+          "formulaWeight": 526.59,
+          "aminoAcid": null
+        },
+        "BottlePosition": 18,
+        "sequenceNumber": 6,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Trityl DCA Loading (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      }
+    ]
+  },
+  {
+    "scaleID": 2,
+    "resinTypeID": 0,
+    "cTerminus": 0,
+    "resinSwellingType": 2,
+    "ResinCycleName": "0.10-Resin Swelling (HS)",
+    "FinalDeprotectionCycleName": "0.10-Final Deprotection (HS) (UV)",
+    "BottleSetupName": "Standard 2",
+    "FolderName": "CEM",
+    "methodName": "CHLPWA",
+    "cemLoaded": false,
+    "comment": "",
+    "resinName": "",
+    "resinLoading": 0.0,
+    "isUVMethod": true,
+    "aminoAcids": [
+      {
+        "specificDerivative": {
+          "oneLetter": "C",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Cys(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 103.145,
+          "formulaWeight": 585.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 5,
+        "sequenceNumber": 1,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Double Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "H",
+          "aminoAcidSpecificDerivativeName": "Fmoc-His(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 137.142,
+          "formulaWeight": 619.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 9,
+        "sequenceNumber": 2,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Double Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 3,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "P",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Pro-OH",
+          "isDefault": true,
+          "residueWeight": 97.118,
+          "formulaWeight": 337.38,
+          "aminoAcid": null
+        },
+        "BottlePosition": 15,
+        "sequenceNumber": 4,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "W",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Trp(Boc)-OH",
+          "isDefault": true,
+          "residueWeight": 186.215,
+          "formulaWeight": 526.59,
+          "aminoAcid": null
+        },
+        "BottlePosition": 18,
+        "sequenceNumber": 5,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "A",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ala-OH",
+          "isDefault": true,
+          "residueWeight": 71.079,
+          "formulaWeight": 311.34,
+          "aminoAcid": null
+        },
+        "BottlePosition": 1,
+        "sequenceNumber": 6,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      }
+    ]
+  },
+  {
+    "scaleID": 2,
+    "resinTypeID": 0,
+    "cTerminus": 0,
+    "resinSwellingType": 2,
+    "ResinCycleName": "0.10-Resin Swelling (HS)",
+    "FinalDeprotectionCycleName": "0.10-Final Deprotection (HS) (UV)",
+    "BottleSetupName": "Standard 2",
+    "FolderName": "CEM",
+    "methodName": "LQKPES_rt",
+    "cemLoaded": false,
+    "comment": "",
+    "resinName": "",
+    "resinLoading": 0.0,
+    "isUVMethod": true,
+    "aminoAcids": [
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 1,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "Q",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Gln(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 128.132,
+          "formulaWeight": 610.71,
+          "aminoAcid": null
+        },
+        "BottlePosition": 6,
+        "sequenceNumber": 2,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "K",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Lys(Boc)-OH",
+          "isDefault": true,
+          "residueWeight": 128.175,
+          "formulaWeight": 468.55,
+          "aminoAcid": null
+        },
+        "BottlePosition": 12,
+        "sequenceNumber": 3,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "P",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Pro-OH",
+          "isDefault": true,
+          "residueWeight": 97.118,
+          "formulaWeight": 337.38,
+          "aminoAcid": null
+        },
+        "BottlePosition": 15,
+        "sequenceNumber": 4,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "E",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Glu(OtBu)-OH",
+          "isDefault": true,
+          "residueWeight": 129.116,
+          "formulaWeight": 425.48,
+          "aminoAcid": null
+        },
+        "BottlePosition": 7,
+        "sequenceNumber": 5,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "S",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ser(tBu)-OH",
+          "isDefault": true,
+          "residueWeight": 87.079,
+          "formulaWeight": 383.45,
+          "aminoAcid": null
+        },
+        "BottlePosition": 16,
+        "sequenceNumber": 6,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      }
+    ]
+  },
+  {
+    "scaleID": 2,
+    "resinTypeID": 0,
+    "cTerminus": 0,
+    "resinSwellingType": 2,
+    "ResinCycleName": "0.10-Resin Swelling (HS)",
+    "FinalDeprotectionCycleName": "0.10-Final Deprotection (HS) (UV)",
+    "BottleSetupName": "Standard 2",
+    "FolderName": "CEM",
+    "methodName": "GLQKPE_rt",
+    "cemLoaded": false,
+    "comment": "",
+    "resinName": "",
+    "resinLoading": 0.0,
+    "isUVMethod": true,
+    "aminoAcids": [
+      {
+        "specificDerivative": {
+          "oneLetter": "G",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Gly-OH",
+          "isDefault": true,
+          "residueWeight": 57.052,
+          "formulaWeight": 297.31,
+          "aminoAcid": null
+        },
+        "BottlePosition": 8,
+        "sequenceNumber": 1,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 2,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "Q",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Gln(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 128.132,
+          "formulaWeight": 610.71,
+          "aminoAcid": null
+        },
+        "BottlePosition": 6,
+        "sequenceNumber": 3,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "K",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Lys(Boc)-OH",
+          "isDefault": true,
+          "residueWeight": 128.175,
+          "formulaWeight": 468.55,
+          "aminoAcid": null
+        },
+        "BottlePosition": 12,
+        "sequenceNumber": 4,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "P",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Pro-OH",
+          "isDefault": true,
+          "residueWeight": 97.118,
+          "formulaWeight": 337.38,
+          "aminoAcid": null
+        },
+        "BottlePosition": 15,
+        "sequenceNumber": 5,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "E",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Glu(OtBu)-OH",
+          "isDefault": true,
+          "residueWeight": 129.116,
+          "formulaWeight": 425.48,
+          "aminoAcid": null
+        },
+        "BottlePosition": 7,
+        "sequenceNumber": 6,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      }
+    ]
+  },
+  {
+    "scaleID": 2,
+    "resinTypeID": 0,
+    "cTerminus": 0,
+    "resinSwellingType": 2,
+    "ResinCycleName": "0.10-Resin Swelling (HS)",
+    "FinalDeprotectionCycleName": "0.10-Final Deprotection (HS) (UV)",
+    "BottleSetupName": "Standard 2",
+    "FolderName": "CEM",
+    "methodName": "CSLPQT_rt",
+    "cemLoaded": false,
+    "comment": "",
+    "resinName": "",
+    "resinLoading": 0.0,
+    "isUVMethod": true,
+    "aminoAcids": [
+      {
+        "specificDerivative": {
+          "oneLetter": "C",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Cys(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 103.145,
+          "formulaWeight": 585.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 5,
+        "sequenceNumber": 1,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Long Double Coupling (HS) (UV)_RT 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "S",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ser(tBu)-OH",
+          "isDefault": true,
+          "residueWeight": 87.079,
+          "formulaWeight": 383.45,
+          "aminoAcid": null
+        },
+        "BottlePosition": 16,
+        "sequenceNumber": 2,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 3,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "P",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Pro-OH",
+          "isDefault": true,
+          "residueWeight": 97.118,
+          "formulaWeight": 337.38,
+          "aminoAcid": null
+        },
+        "BottlePosition": 15,
+        "sequenceNumber": 4,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "Q",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Gln(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 128.132,
+          "formulaWeight": 610.71,
+          "aminoAcid": null
+        },
+        "BottlePosition": 6,
+        "sequenceNumber": 5,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "T",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Thr(tBu)-OH",
+          "isDefault": true,
+          "residueWeight": 101.106,
+          "formulaWeight": 397.47,
+          "aminoAcid": null
+        },
+        "BottlePosition": 17,
+        "sequenceNumber": 6,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      }
+    ]
+  },
+  {
+    "scaleID": 2,
+    "resinTypeID": 0,
+    "cTerminus": 0,
+    "resinSwellingType": 2,
+    "ResinCycleName": "0.10-Resin Swelling (HS)",
+    "FinalDeprotectionCycleName": "0.10-Final Deprotection (HS) (UV)",
+    "BottleSetupName": "Standard 2",
+    "FolderName": "CEM",
+    "methodName": "SCSLPQ_rt",
+    "cemLoaded": false,
+    "comment": "",
+    "resinName": "",
+    "resinLoading": 0.0,
+    "isUVMethod": true,
+    "aminoAcids": [
+      {
+        "specificDerivative": {
+          "oneLetter": "S",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ser(tBu)-OH",
+          "isDefault": true,
+          "residueWeight": 87.079,
+          "formulaWeight": 383.45,
+          "aminoAcid": null
+        },
+        "BottlePosition": 16,
+        "sequenceNumber": 1,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Long Double Coupling (HS) (UV)_RT 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "C",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Cys(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 103.145,
+          "formulaWeight": 585.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 5,
+        "sequenceNumber": 2,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 3,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "P",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Pro-OH",
+          "isDefault": true,
+          "residueWeight": 97.118,
+          "formulaWeight": 337.38,
+          "aminoAcid": null
+        },
+        "BottlePosition": 15,
+        "sequenceNumber": 4,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "Q",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Gln(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 128.132,
+          "formulaWeight": 610.71,
+          "aminoAcid": null
+        },
+        "BottlePosition": 6,
+        "sequenceNumber": 5,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      }
+    ]
+  },
+  {
+    "scaleID": 2,
+    "resinTypeID": 0,
+    "cTerminus": 0,
+    "resinSwellingType": 2,
+    "ResinCycleName": "0.10-Resin Swelling (HS)",
+    "FinalDeprotectionCycleName": "0.10-Final Deprotection (HS) (UV)",
+    "BottleSetupName": "Standard 2",
+    "FolderName": "CEM",
+    "methodName": "SCSLPQTSGLQKPES_rt",
+    "cemLoaded": false,
+    "comment": "",
+    "resinName": "",
+    "resinLoading": 0.0,
+    "isUVMethod": true,
+    "aminoAcids": [
+      {
+        "specificDerivative": {
+          "oneLetter": "S",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ser(tBu)-OH",
+          "isDefault": true,
+          "residueWeight": 87.079,
+          "formulaWeight": 383.45,
+          "aminoAcid": null
+        },
+        "BottlePosition": 16,
+        "sequenceNumber": 1,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Long Double Coupling (HS) (UV)_RT 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "C",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Cys(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 103.145,
+          "formulaWeight": 585.72,
+          "aminoAcid": null
+        },
+        "BottlePosition": 5,
+        "sequenceNumber": 2,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Long Double Coupling (HS) (UV)_RT 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "S",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ser(tBu)-OH",
+          "isDefault": true,
+          "residueWeight": 87.079,
+          "formulaWeight": 383.45,
+          "aminoAcid": null
+        },
+        "BottlePosition": 16,
+        "sequenceNumber": 3,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Long Double Coupling (HS) (UV)_RT 2",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 4,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "P",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Pro-OH",
+          "isDefault": true,
+          "residueWeight": 97.118,
+          "formulaWeight": 337.38,
+          "aminoAcid": null
+        },
+        "BottlePosition": 15,
+        "sequenceNumber": 5,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "Q",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Gln(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 128.132,
+          "formulaWeight": 610.71,
+          "aminoAcid": null
+        },
+        "BottlePosition": 6,
+        "sequenceNumber": 6,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "T",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Thr(tBu)-OH",
+          "isDefault": true,
+          "residueWeight": 101.106,
+          "formulaWeight": 397.47,
+          "aminoAcid": null
+        },
+        "BottlePosition": 17,
+        "sequenceNumber": 7,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "S",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ser(tBu)-OH",
+          "isDefault": true,
+          "residueWeight": 87.079,
+          "formulaWeight": 383.45,
+          "aminoAcid": null
+        },
+        "BottlePosition": 16,
+        "sequenceNumber": 8,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "G",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Gly-OH",
+          "isDefault": true,
+          "residueWeight": 57.052,
+          "formulaWeight": 297.31,
+          "aminoAcid": null
+        },
+        "BottlePosition": 8,
+        "sequenceNumber": 9,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "L",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Leu-OH",
+          "isDefault": true,
+          "residueWeight": 113.161,
+          "formulaWeight": 353.42,
+          "aminoAcid": null
+        },
+        "BottlePosition": 11,
+        "sequenceNumber": 10,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "Q",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Gln(Trt)-OH",
+          "isDefault": true,
+          "residueWeight": 128.132,
+          "formulaWeight": 610.71,
+          "aminoAcid": null
+        },
+        "BottlePosition": 6,
+        "sequenceNumber": 11,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "K",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Lys(Boc)-OH",
+          "isDefault": true,
+          "residueWeight": 128.175,
+          "formulaWeight": 468.55,
+          "aminoAcid": null
+        },
+        "BottlePosition": 12,
+        "sequenceNumber": 12,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "P",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Pro-OH",
+          "isDefault": true,
+          "residueWeight": 97.118,
+          "formulaWeight": 337.38,
+          "aminoAcid": null
+        },
+        "BottlePosition": 15,
+        "sequenceNumber": 13,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "E",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Glu(OtBu)-OH",
+          "isDefault": true,
+          "residueWeight": 129.116,
+          "formulaWeight": 425.48,
+          "aminoAcid": null
+        },
+        "BottlePosition": 7,
+        "sequenceNumber": 14,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      },
+      {
+        "specificDerivative": {
+          "oneLetter": "S",
+          "aminoAcidSpecificDerivativeName": "Fmoc-Ser(tBu)-OH",
+          "isDefault": true,
+          "residueWeight": 87.079,
+          "formulaWeight": 383.45,
+          "aminoAcid": null
+        },
+        "BottlePosition": 16,
+        "sequenceNumber": 15,
+        "UVMonitoringEnabled": true,
+        "UVMaxTimesToDeprotect": 2,
+        "UVDoubleCouple": false,
+        "UVExtendedTime": false,
+        "UVCapping": false,
+        "UVExtendedTimeMicrowaveMethod": 0,
+        "AminoAcidCycleName": "0.10-Single Coupling (HS) (UV)_RT",
+        "AlternativeMicrowaveMethodOnFailureName": ""
+      }
+    ]
+  }
+]
